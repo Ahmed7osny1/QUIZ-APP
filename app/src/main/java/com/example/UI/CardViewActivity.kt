@@ -1,17 +1,15 @@
 package com.example.UI
 
-import android.content.DialogInterface
 import android.content.Intent
-import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.example.QuizActivity
-import com.example.R
+import com.example.albalagha.QuizActivity
+import com.example.alnahw.alnahwQuestion
 import com.example.databinding.ActivityCardViewBinding
-import com.example.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.main.activity_card_view.*
 
 class CardViewActivity : AppCompatActivity() {
 
@@ -22,16 +20,33 @@ class CardViewActivity : AppCompatActivity() {
         binding = ActivityCardViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.elanhw.setOnClickListener{
-            showDialog()
-        }
-
-        binding.bla3a.setOnClickListener {
-            var i = Intent(this,QuizActivity::class.java)
+        binding.alnahwview.setOnClickListener{
+            var i = Intent(this, alnahwQuestion::class.java)
             startActivity(i)
             finish()
         }
 
+        binding.bla3a.setOnClickListener {
+            var i = Intent(this, QuizActivity::class.java)
+            startActivity(i)
+            finish()
+        }
+
+        binding.eladb.setOnClickListener {
+            showDialog()
+        }
+
+        binding.elksa.setOnClickListener {
+            showDialog()
+        }
+
+        binding.alkraa.setOnClickListener {
+            showDialog()
+        }
+
+        binding.alnsos.setOnClickListener {
+            showDialog()
+        }
     }
 
     private fun showDialog(){

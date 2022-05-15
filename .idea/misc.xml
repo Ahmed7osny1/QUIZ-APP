@@ -36,7 +36,18 @@
         <entry key="..\:/2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1015" />
         <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/card_back.xml" value="0.123" />
         <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/gradient_bar.xml" value="0.1785" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/ic__book.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/ic_back_white.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/ic_baseline_email_gray.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/ic_lock_gray.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/ic_person_gray.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/ic_right.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/icon_background.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/icon_outer_background.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/indicator_active_background.xml" value="0.1705" />
         <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/question_style.xml" value="0.1785" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/shape_button01.xml" value="0.1705" />
+        <entry key="..\:/Android/egypt/2/app/src/main/res/drawable/view_pager_background.xml" value="0.1705" />
         <entry key="..\:/Android/egypt/2/app/src/main/res/layout/activity_card_view.xml" value="0.22683982683982684" />
         <entry key="..\:/Android/egypt/2/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Android/egypt/2/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />

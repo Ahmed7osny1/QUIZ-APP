@@ -17,6 +17,8 @@ class Result : AppCompatActivity() {
 
         txt_score.text = "${your_res} / ${total_res}"
 
+        if(your_res!!.toInt() < (total_res!!.toInt() / 2))res_view.text = "bad luck !!"
+
         finish.setOnClickListener {
             var i = Intent(this , CardViewActivity::class.java )
             startActivity(i)

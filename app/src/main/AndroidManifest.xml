@@ -12,7 +12,10 @@
             android:name=".Result"
             android:exported="false" />
         <activity
-            android:name=".QuizActivity"
+            android:name=".alnahw.alnahwQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".albalagha.QuizActivity"
             android:exported="false" />
         <activity
             android:name=".UI.CardViewActivity"

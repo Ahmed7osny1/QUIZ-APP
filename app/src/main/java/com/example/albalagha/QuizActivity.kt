@@ -1,13 +1,15 @@
-package com.example
+package com.example.albalagha
 
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.QuestionData
+import com.example.R
+import com.example.Result
 import kotlinx.android.synthetic.main.activity_quiz.*
 
 class QuizActivity : AppCompatActivity() {
@@ -60,7 +62,7 @@ class QuizActivity : AppCompatActivity() {
                         submit.text = "SUBMIT"
                     }
                     else -> {
-                        var i = Intent(this,Result::class.java)
+                        var i = Intent(this, Result::class.java)
                         i.putExtra("que_score",score.toString())
                         i.putExtra("total_score",questionList!!.size.toString())
                         startActivity(i)
